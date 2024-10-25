@@ -6,8 +6,11 @@ Este manual nos guiará en el uso de la **sintáxis** de: "*MarkDown*" <br>
 ## 3. Énfasis al texto
 ## 4. Listas
 ## 5. Links
-## 6. Citas
-## 7. Tablas
+## 6. Imágenes
+## 7. Citas de código
+## 8. Tablas:
+## 9. Bibliografía
+
 <br><br>
 ### 1. Títulos y encabezados:
 #### ¿Cómo se escriben?
@@ -19,31 +22,73 @@ Para redactar sin problemas encabezados o títulos, la almohadilla o *sharp* deb
 #Este encabezado está mal redactado.
 # Este es el primer encabezo o título, usando solo una "#" (O usando el método alternativo véase el superíndice 1.).
 ###### Este es el último título/encabezado usando 6 "######"
+
 <br><br>
 ## 2. Formación de párrafos.
 <p>La formación de párrafos en markdown funciona exactamente igual que en html, usando las siguientes etiquetas:</p>
-Usando la etiqueta: `System.out.Println`
 
+Usando la etiqueta: `<p>` de apertura y la etiqueta `</p>` de cierre.
+
+<br><br>
 ## 3. Énfasis al texto:
-- Para realizar saltos de línea se usa "(*br*, entre los signos menor que ('<') y mayor que ('>').)"<br>
+- Para realizar saltos de línea se usa *`<br>`*"<br>
 - Para establecer una palabra, texto o fragmento de texto en **negrita** se rodea con cuatro astericos, dos antes del fragmento de texto a poner en negrita., y dos al final *"(**)"* <br>
 - Para hacerlo *cursiva* solo con dos, de nuevo uno antes del fragmento de texto, y otro al final de este ("*")
 <br><br>
+### Ejemplo
+`**Este texto está en negrita**` **Este texto está en negrita** <br>
+`*Este texto está en cursiva*` *Este texto está en cursiva*
+
+<br><br>
 ## 4. Listas:
-Existen dos tipos de listas:
+Existen dos tipos de listas en markdown:
 1. Ordenadas
   - Las listas ordenadas es establecen al iniciar el párrafo con un número, un punto y un espacio: "(1. )"
 2. Sin ordenar
  - Las listas sin ordenar se establecen al iniciar el párrafo con un guión: "(-)"
 
+<br><br>
  ## 5. Links:
-  Para introducir links seguimos la siguiente sintáxis: "[Entre corchetes va el texto alternativo](Entre paréntesis la URL de la imagen "Y un título para esta")<br>
-  Y para introducir una imagen<br>
+### - Ejemplo:
+ ·GNU/[Linux](https://es.wikipedia.org/wiki/GNU/Linux "Linux Wikipedia") (pronunciado oficialmente como ñu linux o también ge-ene-u linux en español), 
+es una familia de sistemas operativos tipo Unix compuesto por software libre y de código abierto."<br>
+  Para introducir links seguimos la siguiente sintáxis: `[Entre corchetes va el texto alternativo](Entre paréntesis la URL "Y un pequeño texto")` <br>
+### - Ejemplo de redacción:
+  `[Linux](https://es.wikipedia.org/wiki/GNU/Linux "Linux Wikipedia")`
+### - Explicación
+En este caso entre corchetes elegiremos el texto a enlazar "[Linux]", seguido de unos paréntesis con el enlace y una pequeña anotación: "(https://es.wikipedia.org/wiki/GNU/Linux "Linux Wikipedia")".
+
+<br><br>
+## 6. Imágenes:
+  Para introducir una imagen seguimos una sintaxis muy similar a la que usamos para introducir links, pero en este caso añadimos un signo de exclamación.<br>
+  
+### - Ejemplo de imagen.
   ![Tux, the Linux mascot](/images.jpg)<br>
-  La sintaxis es: "!" comenzar con un signo de exclamación, Proseguimos con el texto alternativo entre corchetes "[AltText]" y entre paréntesis elegimos la ruta con una barra "/", y el nombre del archivo.
-  Para introducir código hay que ponerlo entre tildes.<br>
+  
+### - Sintaxis:
+  La sintaxis es: "!" comenzar con un signo de exclamación, Proseguimos con el texto alternativo entre corchetes "[AltText]" y entre paréntesis elegimos la ruta con una barra "/", y el nombre del archivo. <br>
+  La sintáxis del la imagen anterior es: <br>
+  `![Tux, the Linux mascot](/images.jpg)`
+
+  <br><br>
+## 7. Cita de código:
+
+### - Sintaxis:
+  Para introducir código hay que ponerlo entre tildes invertidas, solo dos tildes invertidas (Una al inicio y otra al final del tramo o palabra a citar como texto y en caso de citar un bloque, 6 tildes invertidas 3 antes del bloque de texto y otras 3 al final de este.)..<br>
+  
+###  - Ejemplo:
+
   Aquí un ejemplo de `código`:<br>
-       
+  
+  ```
+>public class EjemploAjedrezMatrizChar {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        char[][] matrix = new char[8][8];
+
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j < 8; j++) {
                 if ((i + j) % 2 == 0) {
@@ -61,23 +106,30 @@ Existen dos tipos de listas:
             System.out.println(); //Este sout hace el salto de línea
         }
 
-    }//cierre main`
-## 6. Citas:
-###  - Ejemplo:
-·GNU/[Linux](https://es.wikipedia.org/wiki/GNU/Linux "Linux Wikipedia") (pronunciado oficialmente como ñu linux o también ge-ene-u linux en español), 
-es una familia de sistemas operativos tipo Unix compuesto por software libre y de código abierto."<br>
-### - Explicación
-Justo como los enlaces, las citas sigue una sixtánsis muy similar a los enlaces, en este caso entre corchetes elegiremos el texto a enlazar "[Linux]", seguido de unos paréntesis con el enlace y una pequeña anotación: "(https://es.wikipedia.org/wiki/GNU/Linux "Linux Wikipedia")".
-## 7. Tablas:
+    }//cierre main
+}//cierre class
+```
+
+<br><br>
+## 8. Tablas:
 ###  - Ejemplo:
 | Columna 1 | Columna 2 | Columna 3 |
 |-----------|-----------|-----------|
 | Fila 1    | Fila 2    | Fila 3    |
 | Fila 1    | Fila 2    | Fila 3    |
 <br>
+### - Ejemplo de redacción:
+
+´´´
+| Columna 1 | Columna 2 | Columna 3 |
+|-----------|-----------|-----------|
+| Fila 1    | Fila 2    | Fila 3    |
+| Fila 1    | Fila 2    | Fila 3    |
+´´´
+
 ### - Explicación
 Para la realización de tablas, en MarkDown resulta bastante más confuso, ya que con se redacta lo más cercano a una tabla, en este caso comenzando con "|" para comenzar las columnas y separarlas las unas de las otras, y para separar filas, concretamente la primera fila de las demás (Pues para las demás filas no es necesario hacerlo) (Usando el "|" para continuar separando) se usan guiones "-".
-<br>
 
-## 8. Bibliografía
+<br><br>
+## 9. Bibliografía
 https://denshub.com/es/howto-create-table-markdown/
