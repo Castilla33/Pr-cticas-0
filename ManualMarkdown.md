@@ -2,16 +2,17 @@
 Este manual nos guiará en el uso de la **sintáxis** de: "*MarkDown*" <br>
 # Índice:
 ## 1. Títulos y encabezados:
-## 2. Énfasis al texto
-## 3. Listas
-## 4. Links
-## 5. Citas
-## 6. Tablas
+## 2. Formación de párrafos.
+## 3. Énfasis al texto
+## 4. Listas
+## 5. Links
+## 6. Citas
+## 7. Tablas
 <br><br>
 ### 1. Títulos y encabezados:
 #### ¿Cómo se escriben?
-Los títulos en el formato de markdown Funcionan con el uso de "#", acumulándose llegando hasta un máximo de 6 títulos o encabezados ("######").<br> 
-Otra manera<sup>1</sup> de formar encabezados, es escribir debajo del texto que queremos poner como título, uno o varios iguales para un encabeazdo de 'nivel 1' ("="), y uno o varios guiones para un encabezado de 'nivel 2' ("-").<br>
+Los títulos en el formato de markdown Funcionan con el uso de `#`, acumulándose llegando hasta un máximo de 6 títulos o encabezados `######`.<br> 
+Otra manera<sup>1</sup> de formar encabezados, es escribir debajo del texto que queremos poner como título, uno o varios iguales para un encabeazdo de 'nivel 1': "`=`", y uno o varios guiones para un encabezado de 'nivel 2': "`-`".<br>
 #### Errores a evitar:
 Para redactar sin problemas encabezados o títulos, la almohadilla o *sharp* debe estar separado del texto a encabezar por un espacio. Estando juntos no contará como encabezado.
 #### Ejemplo:
@@ -20,9 +21,10 @@ Para redactar sin problemas encabezados o títulos, la almohadilla o *sharp* deb
 ###### Este es el último título/encabezado usando 6 "######"
 <br><br>
 ## 2. Formación de párrafos.
-<p>La formación de párrafos en markdown funciona exactament igual que en hatml, usnado etiquetas "<p>"` (Y su respectivo cierre con barra "</p>")>/p>
+<p>La formación de párrafos en markdown funciona exactament igual que en html, usando etiquetas.</p>
+`"<p>"(Y su respectivo cierre con barra "</p>")`
 
-## 2. Énfasis al texto:
+## 3. Énfasis al texto:
 - Para realizar saltos de línea se usa "(*br*, entre los signos menor que ('<') y mayor que ('>').)"<br>
 - Para establecer una palabra, texto o fragmento de texto en **negrita** se rodea con cuatro astericos, dos antes del fragmento de texto a poner en negrita., y dos al final *"(**)"* <br>
 - Para hacerlo *cursiva* solo con dos, de nuevo uno antes del fragmento de texto, y otro al final de este ("*")
