@@ -21,8 +21,8 @@ Para redactar sin problemas encabezados o títulos, la almohadilla o *sharp* deb
 ###### Este es el último título/encabezado usando 6 "######"
 <br><br>
 ## 2. Formación de párrafos.
-<p>La formación de párrafos en markdown funciona exactament igual que en html, usando etiquetas.</p>
-`"<p>"(Y su respectivo cierre con barra "</p>")`
+<p>La formación de párrafos en markdown funciona exactament igual que en html, usando las siguientes etiquetas:</p>
+` p ` Y su respectivo cierre con barra 
 
 ## 3. Énfasis al texto:
 - Para realizar saltos de línea se usa "(*br*, entre los signos menor que ('<') y mayor que ('>').)"<br>
