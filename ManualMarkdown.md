@@ -21,22 +21,22 @@ Para redactar sin problemas encabezados o títulos, la almohadilla o *sharp* deb
 ###### Este es el último título/encabezado usando 6 "######"
 <br><br>
 ## 2. Formación de párrafos.
-<p>La formación de párrafos en markdown funciona exactament igual que en html, usando las siguientes etiquetas:</p>
-` p ` Y su respectivo cierre con barra 
+<p>La formación de párrafos en markdown funciona exactamente igual que en html, usando las siguientes etiquetas:</p>
+Usando la etiqueta: `System.out.Println`
 
 ## 3. Énfasis al texto:
 - Para realizar saltos de línea se usa "(*br*, entre los signos menor que ('<') y mayor que ('>').)"<br>
 - Para establecer una palabra, texto o fragmento de texto en **negrita** se rodea con cuatro astericos, dos antes del fragmento de texto a poner en negrita., y dos al final *"(**)"* <br>
 - Para hacerlo *cursiva* solo con dos, de nuevo uno antes del fragmento de texto, y otro al final de este ("*")
 <br><br>
-## 3. Listas:
+## 4. Listas:
 Existen dos tipos de listas:
 1. Ordenadas
   - Las listas ordenadas es establecen al iniciar el párrafo con un número, un punto y un espacio: "(1. )"
 2. Sin ordenar
  - Las listas sin ordenar se establecen al iniciar el párrafo con un guión: "(-)"
 
- ## Links:
+ ## 5. Links:
   Para introducir links seguimos la siguiente sintáxis: "[Entre corchetes va el texto alternativo](Entre paréntesis la URL de la imagen "Y un título para esta")<br>
   Y para introducir una imagen<br>
   ![Tux, the Linux mascot](/images.jpg)<br>
@@ -62,13 +62,13 @@ Existen dos tipos de listas:
         }
 
     }//cierre main`
-## Citas:
+## 6. Citas:
 ###  - Ejemplo:
 ·GNU/[Linux](https://es.wikipedia.org/wiki/GNU/Linux "Linux Wikipedia") (pronunciado oficialmente como ñu linux o también ge-ene-u linux en español), 
 es una familia de sistemas operativos tipo Unix compuesto por software libre y de código abierto."<br>
 ### - Explicación
 Justo como los enlaces, las citas sigue una sixtánsis muy similar a los enlaces, en este caso entre corchetes elegiremos el texto a enlazar "[Linux]", seguido de unos paréntesis con el enlace y una pequeña anotación: "(https://es.wikipedia.org/wiki/GNU/Linux "Linux Wikipedia")".
-## Tablas:
+## 7. Tablas:
 ###  - Ejemplo:
 | Columna 1 | Columna 2 | Columna 3 |
 |-----------|-----------|-----------|
@@ -79,5 +79,5 @@ Justo como los enlaces, las citas sigue una sixtánsis muy similar a los enlaces
 Para la realización de tablas, en MarkDown resulta bastante más confuso, ya que con se redacta lo más cercano a una tabla, en este caso comenzando con "|" para comenzar las columnas y separarlas las unas de las otras, y para separar filas, concretamente la primera fila de las demás (Pues para las demás filas no es necesario hacerlo) (Usando el "|" para continuar separando) se usan guiones "-".
 <br>
 
-## Bibliografía
+## 8. Bibliografía
 https://denshub.com/es/howto-create-table-markdown/
