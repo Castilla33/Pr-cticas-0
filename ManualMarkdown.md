@@ -67,7 +67,8 @@ En este caso entre corchetes elegiremos el texto a enlazar "[Linux]", seguido de
   
 ### - Sintaxis:
   La sintaxis es: "!" comenzar con un signo de exclamación, Proseguimos con el texto alternativo entre corchetes "[AltText]" y entre paréntesis elegimos la ruta con una barra "/", y el nombre del archivo. <br>
-  La sintáxis del la imagen anterior es: <br>
+  
+### - Ejemplo de redacción:
   `![Tux, the Linux mascot](/images.jpg)`
 
   <br><br>
@@ -118,14 +119,12 @@ En este caso entre corchetes elegiremos el texto a enlazar "[Linux]", seguido de
 | Fila 1    | Fila 2    | Fila 3    |
 | Fila 1    | Fila 2    | Fila 3    |
 <br>
+
 ### - Ejemplo de redacción:
 
-´´´
-| Columna 1 | Columna 2 | Columna 3 |
-|-----------|-----------|-----------|
-| Fila 1    | Fila 2    | Fila 3    |
-| Fila 1    | Fila 2    | Fila 3    |
-´´´
+![EjemploTabla](/tabla.jpg)
+
+
 
 ### - Explicación
 Para la realización de tablas, en MarkDown resulta bastante más confuso, ya que con se redacta lo más cercano a una tabla, en este caso comenzando con "|" para comenzar las columnas y separarlas las unas de las otras, y para separar filas, concretamente la primera fila de las demás (Pues para las demás filas no es necesario hacerlo) (Usando el "|" para continuar separando) se usan guiones "-".
