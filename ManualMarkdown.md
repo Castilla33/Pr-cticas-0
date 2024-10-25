@@ -1,7 +1,7 @@
 # Manual de Markdown
 Este manual nos guiará en el uso de la **sintáxis** de: "*MarkDown*" <br>
 # Índice:
-## 1. Títulos y encabezados:<a name="id1">
+## 1. Títulos y encabezados:
 ## 2. Formación de párrafos.
 ## 3. Énfasis al texto
 ## 4. Listas
@@ -12,7 +12,7 @@ Este manual nos guiará en el uso de la **sintáxis** de: "*MarkDown*" <br>
 ## 9. Bibliografía
 
 <br><br>
-## 1. Títulos y encabezados: (#id1)
+## 1. Títulos y encabezados:
 ### ¿Cómo se escriben?
 Los títulos en el formato de markdown Funcionan con el uso de `#`, acumulándose llegando hasta un máximo de 6 títulos o encabezados `######`.<br> 
 Otra manera<sup>1</sup> de formar encabezados, es escribir debajo del texto que queremos poner como título, uno o varios iguales para un encabeazdo de 'nivel 1': "`=`", y uno o varios guiones para un encabezado de 'nivel 2': "`-`".<br>
