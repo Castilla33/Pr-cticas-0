@@ -118,6 +118,7 @@ Otra forma de citar un fragmento de texto es con el uso de 'mayor que' `>` al in
 > > Esta es una subcita
 
 ### Errores a evitar:
+De la misma forma que con los encabezados, debemos separar el texto a citar, del `>`.
 
 <br><br>
 ## 8. Tablas:
