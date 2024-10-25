@@ -12,13 +12,13 @@ Este manual nos guiará en el uso de la **sintáxis** de: "*MarkDown*" <br>
 ## 9. Bibliografía
 
 <br><br>
-### 1. Títulos y encabezados:
-#### ¿Cómo se escriben?
+## 1. Títulos y encabezados:
+### ¿Cómo se escriben?
 Los títulos en el formato de markdown Funcionan con el uso de `#`, acumulándose llegando hasta un máximo de 6 títulos o encabezados `######`.<br> 
 Otra manera<sup>1</sup> de formar encabezados, es escribir debajo del texto que queremos poner como título, uno o varios iguales para un encabeazdo de 'nivel 1': "`=`", y uno o varios guiones para un encabezado de 'nivel 2': "`-`".<br>
-#### Errores a evitar:
+### Errores a evitar:
 Para redactar sin problemas encabezados o títulos, la almohadilla o *sharp* debe estar separado del texto a encabezar por un espacio. Estando juntos no contará como encabezado.
-#### Ejemplo:
+### Ejemplo:
 #Este encabezado está mal redactado.
 # Este es el primer encabezo o título, usando solo una "#" (O usando el método alternativo véase el superíndice 1.).
 ###### Este es el último título/encabezado usando 6 "######"
@@ -72,9 +72,9 @@ En este caso entre corchetes elegiremos el texto a enlazar "[Linux]", seguido de
   `![Tux, the Linux mascot](/images.jpg)`
 
   <br><br>
-## 7. Cita de código:
+## 7. Cita:
 
-### - Sintaxis:
+### - Sintaxis para Citar Código:
   Para introducir código hay que ponerlo entre tildes invertidas, solo dos tildes invertidas (Una al inicio y otra al final del tramo o palabra a citar como texto y en caso de citar un bloque, 6 tildes invertidas 3 antes del bloque de texto y otras 3 al final de este.)..<br>
   
 ###  - Ejemplo:
@@ -111,6 +111,14 @@ En este caso entre corchetes elegiremos el texto a enlazar "[Linux]", seguido de
 }//cierre class
 ```
 
+<br>
+Otra forma de citar un fragmento de texto es con el uso de 'mayor que' `>` al inico de la línea (Estos puede acumularse para realizar subcitas).
+
+> Este es un ejemplo de cita con 'mayor que'.
+> > Esta es una subcita
+
+### Errores a evitar:
+
 <br><br>
 ## 8. Tablas:
 ###  - Ejemplo:
@@ -122,13 +130,12 @@ En este caso entre corchetes elegiremos el texto a enlazar "[Linux]", seguido de
 
 ### - Ejemplo de redacción:
 
-![EjemploTabla](/tabla.jpg)
-
-
+![EjemploTabla](/tabla.PNG)
 
 ### - Explicación
 Para la realización de tablas, en MarkDown resulta bastante más confuso, ya que con se redacta lo más cercano a una tabla, en este caso comenzando con "|" para comenzar las columnas y separarlas las unas de las otras, y para separar filas, concretamente la primera fila de las demás (Pues para las demás filas no es necesario hacerlo) (Usando el "|" para continuar separando) se usan guiones "-".
 
 <br><br>
 ## 9. Bibliografía
+### Tablas:
 https://denshub.com/es/howto-create-table-markdown/
